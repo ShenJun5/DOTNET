@@ -1,0 +1,25 @@
+﻿@model EmployeeTaskMonitor.Core.Models.EmployeeResponseModel
+
+
+<tbody>
+    <tr>
+        <td>@Model.EmployeeId</td>
+        <td>@Model.FirstName</td>
+        <td>@Model.LastName</td>
+        <td>@Model.HiredDate</td>
+        <td>
+            <a asp-controller="Employees" asp-action="GetTasks" asp-route-id="@Model.EmployeeId">
+                <button>View</button>
+            </a>
+        </td>
+    </tr>
+</tbody>
+
+
+   
+
+
+
+
+
+

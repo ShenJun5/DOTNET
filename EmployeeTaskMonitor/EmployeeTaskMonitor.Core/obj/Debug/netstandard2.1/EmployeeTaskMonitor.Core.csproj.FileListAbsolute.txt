@@ -1,0 +1,9 @@
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\bin\Debug\netstandard2.1\EmployeeTaskMonitor.Core.deps.json
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\bin\Debug\netstandard2.1\EmployeeTaskMonitor.Core.dll
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\bin\Debug\netstandard2.1\EmployeeTaskMonitor.Core.pdb
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\obj\Debug\netstandard2.1\EmployeeTaskMonitor.Core.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\obj\Debug\netstandard2.1\EmployeeTaskMonitor.Core.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\obj\Debug\netstandard2.1\EmployeeTaskMonitor.Core.AssemblyInfo.cs
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\obj\Debug\netstandard2.1\EmployeeTaskMonitor.Core.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\obj\Debug\netstandard2.1\EmployeeTaskMonitor.Core.dll
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.Core\obj\Debug\netstandard2.1\EmployeeTaskMonitor.Core.pdb

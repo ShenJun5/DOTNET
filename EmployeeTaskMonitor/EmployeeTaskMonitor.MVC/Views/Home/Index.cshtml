@@ -1,0 +1,28 @@
+﻿@model IEnumerable<EmployeeTaskMonitor.Core.Models.EmployeeResponseModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">EmployeeId</th>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">HiredDate</th>
+            <th scope="col"> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            @*<partial name="EmployeeCard* model="employee">*@
+            @await Html.PartialAsync("_EmployeeCard", employee) 
+        }
+    </tbody>
+</table>     
+
+
+
