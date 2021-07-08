@@ -38,7 +38,7 @@ namespace EmployeeTaskMonitor.MVC
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddTransient<IAsyncRepository<Employee>, EfRepository<Employee>>();
-
+            services.AddHttpContextAccessor();
 
             services.AddDbContext<EmployeeTaskMonitorDbContext>(option => 
                  option.UseSqlServer(Configuration.GetConnectionString("EmployeeTaskMonitorDbConnection"))

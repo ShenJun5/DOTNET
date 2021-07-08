@@ -9,10 +9,17 @@ namespace EmployeeTaskMonitor.Core.ServiceInterfaces
 {
     public interface IEmployeeService
     {
-        public Task<IEnumerable<EmployeeResponseModel>> GetAllEmployees();
+      
+        Task<IEnumerable<EmployeeResponseModel>> GetAllEmployees();
+        Task<EmployeeResponseModel> GetEmployeeById(int id);
+        System.Threading.Tasks.Task AddEmployee(EmployeeRequestModel employeeCreateRequest);
+        System.Threading.Tasks.Task RemoveEmployee(EmployeeRequestModel employeeCreateRequest);
+        Task<EmployeeResponseModel> UpdateEmployee(EmployeeRequestModel employeeRequest);
 
-        public Task<IEnumerable<TaskResponseModel>> GetTasksByEmployeeId(int Id);
 
-        public Task<EmployeeResponseModel> GetEmployeeById(int id);
+
+
+        Task<IEnumerable<TaskResponseModel>> GetTasksByEmployeeId(int Id);
+
     }
 }

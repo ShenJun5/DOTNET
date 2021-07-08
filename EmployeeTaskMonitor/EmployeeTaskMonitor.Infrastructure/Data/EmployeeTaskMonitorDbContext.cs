@@ -19,7 +19,7 @@ namespace EmployeeTaskMonitor.Infrastructure.Data
         private void ConfigureTask(EntityTypeBuilder<Task> builder)
         {
             builder.ToTable("Task");
-            builder.HasKey(t => t.TaskId);
+            builder.HasKey(t => t.Id);
             builder.Property(t => t.TaskName).HasMaxLength(512);
             builder.Property(t => t.StartTime).HasDefaultValueSql("getdate()");
         }
@@ -27,7 +27,7 @@ namespace EmployeeTaskMonitor.Infrastructure.Data
         private void ConfigureEmployee(EntityTypeBuilder<Employee> builder)
         {
             builder.ToTable("Employee");
-            builder.HasKey(e => e.EmployeeId);
+            builder.HasKey(e => e.Id);
             builder.Property(e => e.FirstName).HasMaxLength(256);
             builder.Property(e => e.LastName).HasMaxLength(256);
             builder.Property(t => t.HiredDate).HasDefaultValueSql("getdate()");

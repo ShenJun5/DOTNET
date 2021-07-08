@@ -1,24 +1,21 @@
-﻿@model EmployeeTaskMonitor.Core.Models.TaskResponseModel
+﻿@model IEnumerable<EmployeeTaskMonitor.Core.Models.TaskResponseModel>
 
 <table class="table">
     <thead>
+       
         <tr>
             <th scope="col">Task Name</th>
             <th scope="col">Start Date</th>
             <th scope="col">Deadline</th>
+            <th scope="col">Operation</th>
         </tr>
     </thead>
-    @*<tbody>
-
-        //task : IEnumerable<TaskModel>
-
-        @foreach (var task in Model.EmployeeTasks)
+    <tbody>
+        @foreach (var task in Model)
         {
-            <tr>
-                <td>@task.TaskName</td>
-                <td>@task.StartTime</td>
-                <td>@task.Deadline</td>
-            </tr>
+            @*<partial name="TaskCard* model="task">*@
+            @await Html.PartialAsync("_TaskCard", task)           
         }
-    </tbody>*@
-</table>     
+    </tbody>
+</table>
+<a class="btn btn-primary btn-sm" asp-controller="Tasks" asp-action="CreateTask" asp-route-employeeId="@ViewBag.EmployeeId">Add a Task</a>

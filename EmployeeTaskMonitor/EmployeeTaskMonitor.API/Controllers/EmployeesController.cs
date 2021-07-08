@@ -1,4 +1,5 @@
-﻿using EmployeeTaskMonitor.Core.ServiceInterfaces;
+﻿using EmployeeTaskMonitor.Core.Models;
+using EmployeeTaskMonitor.Core.ServiceInterfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -30,6 +31,14 @@ namespace EmployeeTaskMonitor.API.Controllers
             }
             return Ok(employees);
         }
+
+        [HttpPost("addemployee")]
+        public async Task<IActionResult> CreateEmployee(EmployeeRequestModel employeeCreateRequest)
+        {
+            await _employeeService.AddEmployee(employeeCreateRequest);
+            return Ok();
+        }
+
 
 
     }

@@ -6,7 +6,7 @@ namespace EmployeeTaskMonitor.Core.Entities
 {
     public class Employee
     {
-        public int EmployeeId { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime HiredDate { get; set; }

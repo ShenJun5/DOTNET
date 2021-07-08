@@ -1,0 +1,19 @@
+﻿@model EmployeeTaskMonitor.Core.Models.TaskResponseModel
+
+
+<tbody>
+    <tr>
+        <td>@Model.TaskName</td>
+        <td>@Model.StartTime.ToShortDateString()</td>
+        <td>@Model.Deadline.ToShortDateString()</td>
+        <td>
+            <a asp-controller="Tasks" asp-action="Task" asp-route-id="@Model.Id">
+                <button type="button" class="btn btn-warning btn-sm">Edit</button>
+                <button type="button" class="btn btn-danger btn-sm">Delete</button>
+            </a>
+        </td>
+    </tr>  
+</tbody>
+
+
+

@@ -76,3 +76,8 @@ C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\bin\Debu
 C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\obj\Debug\net5.0\Razor\Views\Shared\_EmployeeCard.cshtml.g.cs
 C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\obj\Debug\net5.0\Razor\Views\Employees\GetTasks.cshtml.g.cs
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\obj\Debug\net5.0\Razor\Views\Shared\_TaskCard.cshtml.g.cs
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\obj\Debug\net5.0\Razor\Views\Employees\CreateEmployee.cshtml.g.cs
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\obj\Debug\net5.0\Razor\Views\Employees\UpdateEmployee.cshtml.g.cs
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.MVC\obj\Debug\net5.0\Razor\Views\Tasks\CreateTask.cshtml.g.cs

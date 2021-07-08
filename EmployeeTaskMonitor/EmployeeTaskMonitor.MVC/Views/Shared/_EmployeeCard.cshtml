@@ -3,13 +3,19 @@
 
 <tbody>
     <tr>
-        <td>@Model.EmployeeId</td>
+        <td>@Model.Id</td>
         <td>@Model.FirstName</td>
         <td>@Model.LastName</td>
-        <td>@Model.HiredDate</td>
+        <td>@Model.HiredDate.ToShortDateString()</td>
         <td>
-            <a asp-controller="Employees" asp-action="GetTasks" asp-route-id="@Model.EmployeeId">
-                <button>View</button>
+            <a asp-controller="Employees" asp-action="GetTasks" asp-route-id="@Model.Id">
+                <button type="button" class="btn btn-info btn-sm">My Tasks</button>
+            </a>
+            <a asp-controller="Employees" asp-action="UpdateEmployee" asp-route-id="@Model.Id">
+                <button type="button" class="btn btn-warning btn-sm">Edit</button>
+            </a>
+            <a asp-controller="Employees" asp-action="DeleteEmployee" asp-route-id="@Model.Id">
+                <button type="button" class="btn btn-danger btn-sm">Delete</button>
             </a>
         </td>
     </tr>

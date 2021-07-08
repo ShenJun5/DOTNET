@@ -63,3 +63,4 @@ C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.API\bin\Debu
 C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.API\bin\Debug\net5.0\EmployeeTaskMonitor.Infrastructure.dll
 C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.API\bin\Debug\net5.0\EmployeeTaskMonitor.Core.pdb
 C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.API\bin\Debug\net5.0\EmployeeTaskMonitor.Infrastructure.pdb
+C:\Users\andre\source\repos\EmployeeTaskMonitor\EmployeeTaskMonitor.API\bin\Debug\net5.0\AutoMapper.dll

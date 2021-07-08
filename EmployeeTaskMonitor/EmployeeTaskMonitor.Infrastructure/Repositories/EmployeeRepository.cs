@@ -33,7 +33,7 @@ namespace EmployeeTaskMonitor.Infrastructure.Repositories
 
         public override async Task<Employee> GetByIdAsync(int id)
         {
-            return await _dbContext.Employees.Include(e => e.EmployeeTasks).FirstOrDefaultAsync(m => m.EmployeeId == id);
+            return await _dbContext.Employees.Include(e => e.EmployeeTasks).FirstOrDefaultAsync(m => m.Id == id);
         }
     }
 }
